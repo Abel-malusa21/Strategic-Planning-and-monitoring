@@ -1,0 +1,104 @@
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Layout Container */
+.layout-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Panel Navigation */
+.left-panel {
+    width: 250px;
+    background-color: #008B8B; /* Coral blue background */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.left-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-panel li {
+    margin-bottom: 15px;
+}
+
+.left-panel a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.left-panel a:hover {
+    background-color: #FF7F50; /* Coral hover color */
+}
+
+/* Main Content Area */
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.main-content h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #008B8B;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Tables, Forms, and Buttons */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #008B8B;
+    color: white;
+}
+
+button, .btn {
+    background-color: #35c3d6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #008B8B;
+}
